@@ -12,50 +12,62 @@
   <link rel="stylesheet" href="CSS/style.css">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
-  <!-- Navbar -->
-  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
 
-      <img src="https://cdn-icons-png.flaticon.com/512/8101/8101319.png" alt="Bootstrap" width="30" height="30">
-      <a class="navbar-brand" href="#">Resume</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="educationDropdown" role="button" data-bs-toggle="dropdown">
-              Education
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="educationDropdown">
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="http://pim.ac.th" target="_blank">
-                  <img src="https://www.pim.ac.th/wp-content/uploads/2018/12/o_1a21hj8a0g3h16gbh3kj1pqaja1-298x300.png"
-                    alt="PIM" width="30" height="30" class="me-2 rounded-circle">
-                  Panyapiwat Institute of Management
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="http://www.prachak.ac.th/" target="_blank">
-                  <img src="ประจักษ์.gif" alt="Prachaksilapakarn" width="30" height="30" class="me-2 rounded-circle">
-                  Prachaksilapakarn School
-                </a>
-              </li>
-            </ul>
-          </li>
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <!-- Logo / Brand -->
+    <img src="https://cdn-icons-png.flaticon.com/512/8101/8101319.png" alt="Logo" width="30" height="30">
+    <a class="navbar-brand" href="#">Resume</a>
 
-          <li class="nav-item"><a class="nav-link" href="https://github.com/Chorm06">Github</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
-            <li class="nav-item"><a class="nav-link" href="#short-bio">Short-bio</a></li>
+    <!-- Hamburger Button (Toggle สำหรับหน้าจอเล็ก) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
 
-        </ul>
-      </div>
+        <!-- Dropdown Education -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="educationDropdown" role="button" data-bs-toggle="dropdown">
+            Education
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="educationDropdown">
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="http://pim.ac.th" target="_blank">
+                <img src="https://www.pim.ac.th/wp-content/uploads/2018/12/o_1a21hj8a0g3h16gbh3kj1pqaja1-298x300.png"
+                  alt="PIM" width="30" height="30" class="me-2 rounded-circle">
+                Panyapiwat Institute of Management
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="http://www.prachak.ac.th/" target="_blank">
+                <img src="ประจักษ์.gif" alt="Prachaksilapakarn" width="30" height="30" class="me-2 rounded-circle">
+                Prachaksilapakarn School
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Section Links -->
+        <li class="nav-item"><a class="nav-link" href="#short-bio">Short Bio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+        <!-- External Links -->
+        <li class="nav-item"><a class="nav-link" href="https://github.com/Chorm06" target="_blank">Github</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank">Contact Form</a></li>
+
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 
   <!-- Header -->
   <header class="text-center py-5 mt-5">
@@ -70,12 +82,14 @@
   <hr class="container">
 
   <!-- Short Bio Section -->
-<section id="short-bio" class="container py-3">
-  <h3>ประวัติโดยย่อ (Short Bio)</h3>
-  <p>
-    I am a 2nd-year student from Udon Thani, studying Digital and Information Technology at the Faculty of Engineering and Technology, Panyapiwat Institute of Management. I am eager to gain practical experience in software development and contribute to real-world projects.
-  </p>
-</section>
+  <section id="short-bio" class="container py-3">
+    <h3>ประวัติโดยย่อ (Short Bio)</h3>
+    <p>
+      I am a 2nd-year student from Udon Thani, studying Digital and Information Technology at the Faculty of Engineering
+      and Technology, Panyapiwat Institute of Management. I am eager to gain practical experience in software
+      development and contribute to real-world projects.
+    </p>
+  </section>
 
 
   <hr class="container">
